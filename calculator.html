@@ -18,6 +18,10 @@ function cube3() {
 var num3 = document.getElementById("n3”);
 num3.value = Math.pow(num3.value, 3);
 }
+function cube5() {
+var num5 = document.getElementById("n5”);
+num5.value = (1/num5.value);
+}
 </script>
 </head>
 <body>
@@ -40,10 +44,16 @@ Seno:
 <button onclick="cube2()"> Seno </button>
 
 </p>
-eno:
+x2:
 <input type="text" id="n3”>
 <p>
 <button onclick="cube3()”> x2</button>
+
+</p>
+inverso:
+<input type="text" id="n5”>
+<p>
+<button onclick="cube5()”> 1/x</button>
 
 </p>
 </body>
